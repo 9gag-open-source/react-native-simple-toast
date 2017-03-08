@@ -6,7 +6,13 @@
 //  Copyright © 2016年 luoruidong. All rights reserved.
 //
 #import <UIKit/UIKit.h>
+
+#if __has_include(<React/RCTBridgeModule.h>)
+#import <React/RCTBridgeModule.h>
+#esle
 #import "RCTBridgeModule.h"
+#endif
+
 #import "UIView+Toast.h"
 
 NSInteger const LRDRCTSimpleToastBottomOffset = 40;
