@@ -9,7 +9,7 @@
 
 #if __has_include(<React/RCTBridgeModule.h>)
 #import <React/RCTBridgeModule.h>
-#esle
+#else
 #import "RCTBridgeModule.h"
 #endif
 
